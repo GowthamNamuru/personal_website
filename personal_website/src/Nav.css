@@ -1,0 +1,83 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    background-color: #30163e;
+    height: 70px;
+}
+
+nav .menu {
+    display: flex;
+    gap: 30px;
+}
+
+.projects_dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.projects_dropdown_content {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 80%;
+    left: 0;
+    background-color: #30163e;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+    z-index: 1;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.projects_dropdown_content a {
+    display: block;
+    padding: 8px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.projects_dropdown:hover .projects_dropdown_content {
+    display: flex;
+}
+
+/*
+To add underline on hover
+*/
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    position: relative;
+    display: inline-flex;
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease-in-out;
+}
+
+a:hover::after {
+    width: 100%;
+}
+
+.dropdown_icon {
+    margin-left: 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+}
+
+.projects_dropdown:hover .dropdown_icon {
+    transform: rotate(180deg);
+}
