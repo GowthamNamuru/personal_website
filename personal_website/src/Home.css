@@ -1,0 +1,62 @@
+
+.home {
+    display: flex;
+    justify-content: justify;
+    height: 60vh;
+    background-color: #30163e;
+    padding: 50px 50px;
+    color: white;
+    flex-direction: column;
+    font-family: 'Georgia', serif;
+    text-align: left;
+    margin: 15%;
+}
+
+.home_content h1 {
+    font-size: 3.4rem;
+    line-height: 1.4;
+    margin: 0;
+}
+.social_icons {
+    margin-top: 20%;
+}
+
+.home_content h1 span {
+    color: #FF6347;
+}
+/*
+Need to rethink on adding underline effect on hover
+*/
+/* .home_content h1 span:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.home_content h1 span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s;
+}
+
+.home_content h1 span:hover::after {
+    width: 100%;
+} */
+
+.social_icons a {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease color 0.3s ease;
+    display: inline-block;
+}
+
+.social_icons a:hover {
+    color: #CCCCCC;
+    transform: scale(1.2);
+}
