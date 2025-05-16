@@ -3,6 +3,7 @@
     display: flex;
     justify-content: justify;
     height: 60vh;
+    width: 100%;
     background-color: #30163e;
     padding: 50px 50px;
     color: white;

@@ -3,9 +3,10 @@ import './Description.css';
 
 function Description() {
     return (
+        <section>
             <div className="description_content">
                 <h1>
-                    I'm a Senior iOS Engineer with a passion for <br /> creating innovative solutions
+                    I'm a Senior iOS Engineer with a passion for creating innovative solutions
                     based in <span className="city">Banglore</span>, India.
                 </h1>
                 <div className="social_icons">
@@ -26,6 +27,7 @@ function Description() {
                     
                 </div>
             </div>
+        </section>
     )
 }
 

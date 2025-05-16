@@ -4,8 +4,10 @@ import Description from "./Description/Description";
 
 function Home() {
     return (
-        <div className="home">
-            <Description />
+        <div className="home_container">
+            <div className="home">
+                <Description />
+            </div>
         </div>
     );
 }
