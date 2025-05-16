@@ -34,48 +34,6 @@
     padding-left: 0%;
 }
 
-.content {
-    margin-left: 50px;
-    max-width: 500px;
-    color: #222;
-    padding-left: 2%;
-}
-
-.content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
-    padding-bottom: 30px;
-}
-
-.content p {
-    font-size: 1.16rem;
-    line-height: 1.6;
-    margin-bottom: 40px;
-    font-family: 'Inter', sans-serif;
-}
-
-.short_description .content {
-    flex: 1 1 400px; /* Allow text block to grow, but min 400px */
-    margin-left: 50px;
-}
-
-.resume_button {
-    background-color: #4B0B5F;
-    color: white;
-    padding: 14px 30px;
-    text-decoration: none;
-    border: 2px solid #4B0B5F;
-    transition: all 0.3s ease;
-    font-weight: bold;
-}
-
-.resume_button :hover{
-    background-color: transparent;
-    color: #4B0B5F;
-}
-
-
 @media (max-width: 768px) {
     .short_description {
         flex-direction: column;
