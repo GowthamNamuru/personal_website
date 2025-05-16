@@ -1,0 +1,12 @@
+.photo_container {
+    display: flex;
+}
+
+.photo_container img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    flex-shrink: 0;
+    padding: auto;
+}
