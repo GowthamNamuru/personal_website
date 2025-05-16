@@ -1,0 +1,27 @@
+
+.description_content h1 {
+    font-size: 3.4rem;
+    line-height: 1.4;
+    margin: 0;
+}
+.social_icons {
+    margin-top: 20%;
+}
+
+.description_contentt h1 span {
+    color: #FF6347;
+}
+
+.social_icons a {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease color 0.3s ease;
+    display: inline-block;
+}
+
+.social_icons a:hover {
+    color: #CCCCCC;
+    transform: scale(1.2);
+}
