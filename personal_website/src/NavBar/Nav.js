@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Nav.css';
-import Projects from './Projects';
+import Projects from './Projects/Projects';
 
 function Nav() {
     const [menuOpen, setMenuOpen] = useState(false);

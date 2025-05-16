@@ -18,7 +18,7 @@
     bottom: -4px;
     height: 2px;
     width: 0;
-    background-color: #FF4C60;
+    background-color: white;
     transition: width 0.3s;
 }
 
