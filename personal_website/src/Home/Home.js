@@ -3,6 +3,7 @@ import './Home.css';
 import Photo from "../Common/Photo";
 import Description from "./Description/Description";
 import HomeShortDescription from "./Description/HomeShortDescription";
+import WorkDetails from "./WorkDetails/WorkDetails";
 
 function Home() {
     return (
@@ -17,6 +18,9 @@ function Home() {
                     </div>
                     <HomeShortDescription />
                 </div>
+            </section>
+            <section>
+                <WorkDetails />
             </section>
         </div>
     );

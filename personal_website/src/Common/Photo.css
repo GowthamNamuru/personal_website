@@ -3,7 +3,7 @@
 }
 
 .photo_container img {
-    width: 300px;
+    width: 350px;
     height: auto;
     object-fit: cover;
     border-radius: 4px;
