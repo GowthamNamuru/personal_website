@@ -1,0 +1,26 @@
+.portfolio_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 60px;
+    background-color: #fff;
+}
+
+.portfolio_text h1 {
+    font-size: 3rem;
+    font-family: 'Georgia', serif;
+    margin-bottom: 20px;
+}
+
+.portfolio_text p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.portfolio_items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}

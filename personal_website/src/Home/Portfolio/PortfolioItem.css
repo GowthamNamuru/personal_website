@@ -1,0 +1,24 @@
+.portfolio_item {
+    position: relative;
+}
+
+.portfolio_item img {
+    width: 100%;
+    height: 400px;
+    object-fit: scale-down;
+    display: block;
+}
+
+.portfolio_caption {
+    margin-top: 10px;
+}
+
+.portfolio_caption h2 {
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+.portfolio_caption span {
+    font-size: 0.9rem;
+    color: #666;
+}

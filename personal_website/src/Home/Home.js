@@ -3,7 +3,7 @@ import './Home.css';
 import Photo from "../Common/Photo";
 import Description from "./Description/Description";
 import HomeShortDescription from "./Description/HomeShortDescription";
-import WorkDetails from "./WorkDetails/WorkDetails";
+import PortfolioSection from "./Portfolio/PortfolioSection";
 
 function Home() {
     return (
@@ -20,7 +20,7 @@ function Home() {
                 </div>
             </section>
             <section>
-                <WorkDetails />
+                <PortfolioSection />
             </section>
         </div>
     );
